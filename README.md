@@ -10,15 +10,15 @@
 ## Instalacion App
 
 - Descargar el repositorio
-- ** git clone https://github.com/eryoher/kuepaTest.git **
+- **git clone https://github.com/eryoher/kuepaTest.git**
 - Entrar en la carpeta kuepaTest y correr el siguiente comando
-- ** composer install **  
+- **composer install**  
 - Crear la BD que se va a usar
 - Configurar el archivo .env para la conexio a la BD usar como ejemplo el .env.example
 - Ejecutar la migraciones
-- ** php artisan migrate **
+- **php artisan migrate**
 - Si esta usando apache entrar al directorio web o tambien puede levantar el servidor integrado. 
-- ** php artisan serve **
+- **php artisan serve**
 - Enjoy
 
 
