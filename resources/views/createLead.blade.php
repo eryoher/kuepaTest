@@ -14,7 +14,7 @@
                     </div>
                 @endif
                 <div class="card">
-                    <div class="card-header">Formulario de contácto</div>
+                    <div class="card-header">Crear Contácto</div>
                     @if (session('success'))
                         <div class="alert alert-success">
                             {{ session('success') }}

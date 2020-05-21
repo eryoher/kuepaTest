@@ -16,6 +16,7 @@ Route::get('/', function () {
     return view('createLead');
 });
 Route::post('saveLead', 'LeadsController@store')->name('save');
-Route::get('/admin', 'LeadsController@index')->name('admin');
-Route::post('/leadsEdit', 'LeadsController@leadsEdit')->name('leadsEdit');
-Route::resource('leads', 'LeadsController');
+Route::get('/admin', 'LeadsController@index')->name('admin')->middleware('auth');
+Route::resource('leads', 'LeadsController')->middleware('auth');
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
