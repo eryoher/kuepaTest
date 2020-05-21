@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Instalacion App
+
+- Descargar el repositorio
+- ** git clone https://github.com/eryoher/kuepaTest.git
+- Entrar en la carpeta kuepaTest y correr el siguiente comando
+- ** composer install  
+- Crear la BD que se va a usar
+- Configurar el archivo .env para la conexio a la BD usar como ejemplo el .env.example
+- Ejecutar la migraciones
+- ** php artisan migrate
+- Si esta usando apache entrar al directorio web o tambien puede levantar el servidor integrado. 
+- ** php artisan serve
+- Enjoy
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
