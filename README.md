@@ -17,7 +17,11 @@
 - Configurar el archivo .env para la conexio a la BD usar como ejemplo el .env.example
 - Ejecutar la migraciones
 - **php artisan migrate**
-- Si esta usando apache entrar al directorio web o tambien puede levantar el servidor integrado. 
+- Asignar permisos a la carpeta storage. Si esta en ubuntu usar
+- **sudo chmod 777 storage/ -R**
+- Crear la key necesario para que corrar el laravel
+- **php artisan key:generate**
+- Si esta usando apache entrar al directorio web **kuepaTest/public** o tambien puede levantar el servidor integrado. 
 - **php artisan serve**
 - Enjoy
 
